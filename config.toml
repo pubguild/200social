@@ -1,41 +1,26 @@
 baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Hugo Creative Theme"
+title = "$200 Social Media"
 theme = "hugo-creative-theme"
 googleAnalytics = ""
 
 [params]
 
-	# You can use Markdown syntax for urls [text](//url.to/source) for
-	# most longer texts.
+	name = "$200 Social Media"
+	description = "$200 Social Media"
 
-	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
-	# for more icons. The icons are represented by their corresponding
-	# CSS class.
-
-	# All projects of the portfolio are defined in their own files.
-	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
-	# folder into the 'data' directory at the root of this Hugo site.
-	# For more information take a look at the README.
-
-	# To provide some metadata for search engines feel free to add some
-	# information about you and your website.
-	name = "Your name"
-	description = "Your description"
-
-	# The path must be relative to the static folder
-	favicon = "favicon.ico"
+	favicon = "log.png"
 
 
 	# Navigation
 	[params.navigation]
-		brand = "Hugo Creative Theme"
+		brand = "200social"
 
 		[params.navigation.links]
-			about     = "About"
-			services  = "Services"
-			portfolio = "Portfolio"
-			contact   = "Contact"
+			about     = "What is $200 Social Media"
+			services  = "Who is Behind 200 Social?"
+			contact   = "Contact $200 Social"
+			
 
 
 	# Hero section
