@@ -4,11 +4,19 @@ title = "$200 Social Media"
 theme = "hugo-creative-theme"
 googleAnalytics = ""
 
-[params]
+title = "$200 Social Media"
+baseurl = "https://example.org/"
+publishdir = "public"
+contentdir = "/themes/hugo-creative-theme/content"
+layoutdir = "/themes/hugo-creative-theme/layouts"
+staticdir = "/themes/hugo-creative-theme/static"
+themesdir = "src/hugo/themes"
+languageCode = "en-US"
 
+[params]
+  	DefaultContentLanguage = "en"
 	name = "$200 Social Media"
 	description = "$200 Social Media"
-
 	favicon = "logo.png"
 
 
