@@ -21,10 +21,17 @@
                         <a class="page-scroll" href="#about">{{ .Site.Params.navigation.links.about }}</a>
                     </li>
                 {{ end }}
+                
 
                 {{ if and .Site.Params.services.list .Site.Params.navigation.links.services }}
                     <li>
-                        <a class="page-scroll" href="pagina1.html">{{ .Site.Params.navigation.links.services }}</a>
+                        <a href="contact-200-social.php">{{ .Site.Params.navigation.links.services }}</a>
+                    </li>
+                {{ end }}
+
+                {{ if and .Site.Params.services.list .Site.Params.navigation.links.services }}
+                    <li>
+                        <a class="page-scroll" href="404.html">{{ .Site.Params.navigation.links.services }}</a>
                     </li>
                 {{ end }}
               
