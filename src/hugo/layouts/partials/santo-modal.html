@@ -1,0 +1,10 @@
+<!-- Santo Tirso modal window -->
+<span id="santo" class="target"><!-- Hidden anchor to open Douro modal container--></span>
+ 	 {{ range where .Data.Pages ".Title" "santo_desc" }}
+	 <div class="modal">
+	   <div class="content vertical-align-middle">
+	     	{{ .Content }}
+	     	<a class="close-btn" href="#start">X</a>
+	   </div>
+	 </div>
+	 {{ end }}
