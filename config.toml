@@ -1,5 +1,5 @@
 title = "200 social"
-baseurl = ""
+baseurl = "https://julioh.github.io"
 publishdir = "public"
 contentdir = "src/hugo/content"
 layoutdir = "src/hugo/layouts"
@@ -19,28 +19,17 @@ languageName = "English"
 
 [[Languages.en.menu.main]]
 url    = "/#about"
-name   = "About"
+name   = "What is $200 Social Media"
 weight = 1
 [[Languages.en.menu.main]]
-url    = "/#howitworks"
-name   = "How"
+url    = "/#benefits"
+name   = " Who is the 200 Social Team?"
 weight = 2
 [[Languages.en.menu.main]]
-url    = "/#products"
-name   = "Products"
-weight = 3
-[[Languages.en.menu.main]]
-url    = "/#benefits"
-name   = "Benefits"
-weight = 4
-[[Languages.en.menu.main]]
 url    = "/#contact"
-name   = "Contact"
-weight = 5
-[[Languages.en.menu.main]]
-url    = "/es/"
-name   = "ES"
-weight = 6
+name   = " Contact $200 Social"
+weight = 3
+
 
 [blackfriday]
   hrefTargetBlank = true
