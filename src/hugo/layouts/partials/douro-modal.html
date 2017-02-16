@@ -1,0 +1,10 @@
+	<!-- Douro modal window -->
+	<span id="douro" class="target"><!-- Hidden anchor to open Douro modal container--></span>
+	 {{ range where .Data.Pages ".Title" "douro_desc" }}
+	 <div class="modal">
+	   <div class="content vertical-align-middle">
+	     	{{ .Content }}
+	     	<a class="close-btn" href="#start">X</a>
+	   </div>
+	 </div>
+	 {{ end }}
