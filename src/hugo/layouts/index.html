@@ -77,7 +77,226 @@
       </div>
     </div>
   </div>
-  
+  <div id="howitworks" class="theme-page theme-page-space">
+    <div class="theme-page-container Path">
+      <div class="theme-page-content">
+        <div class="theme-page-content--small">
+          <div class="u-row">
+            <div class="u-column u-column--hd6 u-column--md12">
+              <div class="Path-item Path-item--1"><img src="/img/howitworks-path-1.png" width="auto" height="239">
+		{{ if eq .Site.Language.Lang "en" }}
+		    {{ range where .Data.Pages ".Title" "Buy a TigoCTM Machine" }}
+                        <h2 class="title">{{ .Title }}</h2>
+		    {{ end }}
+		{{ else if eq .Site.Language.Lang "es" }}
+			{{ range where .Data.Pages ".Title" "Compra una Maquina TigoCTM" }}
+			    <h2 class="title">{{ .Title }}</h2>
+		        {{ end }}
+		{{ end }}
+	    </div>
+            </div>
+            <div class="u-column u-column--hd6 u-column--md12">
+              <div class="Path-item Path-item--2"><img src="/img/howitworks-path-2.png" width="auto" height="138">
+		{{ if eq .Site.Language.Lang "en" }}
+		    {{ range where .Data.Pages ".Title" "path 2" }}
+                        <h3 class="title">{{ .Content }}</h3>
+		    {{ end }}
+		{{ else if eq .Site.Language.Lang "es" }}
+			{{ range where .Data.Pages ".Title" "path 2" }}
+			    <h3 class="title">{{ .Content }}</h3>
+		        {{ end }}
+		{{ end }}
+              </div>
+            </div>
+            <div class="u-column u-column--hd6 u-column--md12">
+              <div class="Path-item Path-item--3"><img src="/img/howitworks-path-3.png" width="auto" height="211">
+		{{ if eq .Site.Language.Lang "en" }}
+		    {{ range where .Data.Pages ".Title" "path 3" }}
+                        <h2 class="title">{{ .Content }}</h2>
+		    {{ end }}
+		{{ else if eq .Site.Language.Lang "es" }}
+			{{ range where .Data.Pages ".Title" "path 3" }}
+			    <h2 class="title">{{ .Content }}</h2>
+		        {{ end }}
+		{{ end }}
+              </div>
+            </div>
+            <div class="u-column u-column--hd6 u-column--md12">
+              <div class="Path-item Path-item--4"><img src="/img/howitworks-path-4.png" width="auto" height="208">
+		{{ if eq .Site.Language.Lang "en" }}
+		    {{ range where .Data.Pages ".Title" "path 4" }}
+                        <h2 class="title">{{ .Content }}</h2>
+		    {{ end }}
+		{{ else if eq .Site.Language.Lang "es" }}
+			{{ range where .Data.Pages ".Title" "path 4" }}
+			    <h2 class="title">{{ .Content }}</h2>
+		        {{ end }}
+		{{ end }}
+              </div>
+            </div>
+            <div class="u-column u-column--hd6 u-column--md12">
+              <div class="Path-item Path-item--5"><img src="/img/howitworks-path-5.png" width="auto" height="174">
+		{{ if eq .Site.Language.Lang "en" }}
+		    {{ range where .Data.Pages ".Title" "path 5" }}
+                        <h2 class="title">{{ .Content }}</h2>
+		    {{ end }}
+		{{ else if eq .Site.Language.Lang "es" }}
+			{{ range where .Data.Pages ".Title" "path 5" }}
+			    <h2 class="title">{{ .Content }}</h2>
+		        {{ end }}
+		{{ end }}
+              </div>
+            </div>
+            <div class="u-column u-column--hd6 u-column--md12">
+              <div class="Path-item Path-item--6"><img src="/img/howitworks-path-6.png" width="auto" height="185">
+		{{ if eq .Site.Language.Lang "en" }}
+		    {{ range where .Data.Pages ".Title" "path 6" }}
+                        <h2 class="title">{{ .Content }}</h2>
+		    {{ end }}
+		{{ else if eq .Site.Language.Lang "es" }}
+			{{ range where .Data.Pages ".Title" "path 6" }}
+			    <h2 class="title">{{ .Content }}</h2>
+		        {{ end }}
+		{{ end }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="theme-page InformationButton">
+    <div class="theme-page-container">
+      <div class="theme-page-content">
+	{{ if eq .Site.Language.Lang "en" }}
+            {{ range where .Data.Pages ".Title" "Fill out the form below for More Information" }}
+        <div class="theme-page-content--small"><a href="#contact" class="u-btn u-btn-x-large theme-btn-primary">{{ .Title }}</a></div>
+	    {{ end }}
+	{{ else if eq .Site.Language.Lang "es" }}
+	    {{ range where .Data.Pages ".Title" "Rellene el siguiente formulario para obtener más información" }}
+        <div class="theme-page-content--small"><a href="#contact" class="u-btn u-btn-x-large theme-btn-primary">{{ .Title }}</a></div>
+	    {{ end }}
+	{{ end }}
+      </div>
+    </div>
+  </div>
+  <div class="theme-page Information Information--light">
+    <div class="theme-page-container">
+      <div class="theme-page-content">
+	{{ if eq .Site.Language.Lang "en" }}
+              {{ range where .Data.Pages ".Title" "Existing and Growing Demand" }}
+              <div class="theme-page-content-title">
+               <p>{{ .Title }}</p>
+              </div>
+              <div class="theme-page-content--small">
+		<div class="u-row">
+		  <div class="u-column u-column--hd6 u-column--md12">
+                    <div class="Information-info">
+                    {{ .Content }}
+                  </div>
+                </div>
+                {{ end }}
+	{{ else if eq .Site.Language.Lang "es" }}
+		{{ range where .Data.Pages ".Title" "Demanda Existente y la Creciente" }}
+            <div class="theme-page-content-title">
+              <p>{{ .Title }}</p>
+              </div>
+              <div class="theme-page-content--small">
+               <div class="u-row">
+                <div class="u-column u-column--hd6 u-column--md12">
+                  <div class="Information-info">
+                    {{ .Content }}
+                  </div>
+                </div>
+                {{ end }}
+               {{ end }}
+              <div class ="u-column u-column--hd6 u-column--md12">
+                <div class="Information-info">
+                    {{ range where .Data.Pages ".Title" "Information B2" }}
+                      {{ .Content }}
+		    {{ end }}
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+  <div id="products" class="theme-page Products">
+  <!-- Partials for modal windows -->
+  {{ partial "douro-modal.html" . }}
+  {{ partial "santo-modal.html" . }}
+  {{ partial "braga-modal.html" . }}
+    <div class="theme-page-container">
+      <div class="theme-page-content">
+	{{ if eq .Site.Language.Lang "en" }}
+            {{ range where .Data.Pages ".Title" "Your New Machine" }}
+              <div class="theme-page-content-title">
+              <p><strong>{{ .Title }}</strong></p>
+            </div>
+            {{ end }}
+	 {{ else if eq .Site.Language.Lang "es" }}
+	    {{ range where .Data.Pages ".Title" "Su Máquina Nueva" }}
+	      <div class="theme-page-content-title">
+		<p><strong>{{ .Title }}</strong></p>
+              </div>
+            {{ end }}
+	 {{ end }}
+        <span id="start" class="target"><!-- Hidden anchor to close all modals --></span>
+          <div class="theme-page-content--small">
+            <div class="u-row">
+              <!-- Douro column -->
+              <div class="u-column u-column--hd6 u-column--md12">
+              	<div class="theme-page-content-title">
+              		<p>Douro</p>
+              	</div>
+                <div class="Products-item">
+                  <div class="theme-panel">
+                    <div class="Slides-slide">
+                      <div class="Slide-image"><img src="/img/douro.png" height="270" width="auto"></div>
+                    </div>
+                  </div>
+                  <!-- Modal Button - Douro -->
+		  {{ if eq .Site.Language.Lang "en" }}
+		     {{ range where .Data.Pages ".Title" "More Info" }}
+		  <a href="#douro" class="u-btn theme-btn-primary">{{ .Title }}</a>
+                     {{ end }}
+		  {{ else if eq .Site.Language.Lang "es" }}
+		     {{ range where .Data.Pages ".Title" "Más Info" }}
+		  <a href="#douro" class="u-btn theme-btn-primary">{{ .Title }}</a>
+                     {{ end }}
+                  {{ end }}
+                </div>
+              </div>
+              <!-- Santo Tirso column -->
+              <div class="u-column u-column--hd6 u-column--md12">
+              <div class="theme-page-content-title">
+              		<p>Santo Tirso</p>
+              </div>
+                <div class="Products-item">
+                  <div class="theme-panel">
+                    <div class="Slides-slide">
+                      <div class="Slide-image"><img src="/img/santo-tirso.png" height="270" width="auto"></div>
+                    </div>
+                  </div>
+                  <!-- Modal Button - Santo Tirso -->
+		  {{ if eq .Site.Language.Lang "en" }}
+		     {{ range where .Data.Pages ".Title" "More Info" }}
+		  <a href="#santo" class="u-btn theme-btn-primary">{{ .Title }}</a>
+                     {{ end }}
+		  {{ else if eq .Site.Language.Lang "es" }}
+		     {{ range where .Data.Pages ".Title" "Más Info" }}
+		  <a href="#santo" class="u-btn theme-btn-primary">{{ .Title }}</a>
+                     {{ end }}
+                  {{ end }}
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
   <div id="benefits" class="theme-page Benefits">
     <div class="Benefits-bg"></div>
     <div class="Benefits-container">
